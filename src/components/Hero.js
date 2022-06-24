@@ -1,5 +1,4 @@
 import React from "react";
-import textBody from "../textBody";
 import "../css/Hero.css";
 
 const Hero = () => {

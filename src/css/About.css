@@ -1,15 +1,19 @@
 .aboutPage {
-  height: 100vh;
+  /* height: 100vh; */
+  /* width: 100vw; */
   color: white;
+  background-color: rgba(10, 10, 10, 0.807);
+
+
 }
 
 .aboutTextContainer {
-  position: relative;
+  /* position: relative;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
   border: 5px solid #ffff00;
   padding: 10px;
   height: 40%;
-  width: 60%;
+  width: 60%; */
 }
