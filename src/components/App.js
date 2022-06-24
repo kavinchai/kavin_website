@@ -3,14 +3,15 @@ import React from "react";
 import Navbar from "./Navbar";
 import About from "./About";
 import Hero from "./Hero";
+import Experience from "./Experience";
 
 const App = () => {
   return (
     <div className="appContainer">
       {/* <Navbar /> */}
-      <Hero />
+      {/* <Hero /> */}
       {/* <About /> */}
-      {/* <Experience /> */}
+      <Experience />
       {/* <Work /> */}
     </div>
   );
