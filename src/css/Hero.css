@@ -1,0 +1,34 @@
+.heroPage {
+  height: 100vh;
+  color: white;
+}
+.heroTextContainer {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid #ffff00;
+  padding: 10px;
+  height: 40%;
+  width: 60%;
+}
+
+.myNameIs {
+  color: #eee3c1ff;
+}
+
+.name {
+  color: #00cec9;
+  margin: 0px;
+  font-size: clamp(60px, 8vw, 60px);
+}
+
+.whatIDo {
+  color: #505050ff;
+  margin: 0px;
+  font-size: clamp(40px, 8vw, 60px);
+}
+
+.myDescription {
+  color: #505050ff;
+}
