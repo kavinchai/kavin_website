@@ -1,0 +1,72 @@
+.descContainer {
+  /* background-color: blue; */
+
+  height: auto;
+  width: 80%;
+  margin-left: auto;
+  margin-right: 0;
+
+  position: relative;
+}
+
+.descHeader {
+  /* background-color: red; */
+
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.headSec1 {
+  /* background-color: green; */
+
+  width: 100%;
+  height: auto;
+  display: flex;
+  gap: 10px;
+
+  font-family: "Poppins", sans-serif;
+}
+
+.descTitle {
+  color: white;
+  font-size: 21px;
+}
+
+.descCompany {
+  color: #81ecec;
+  font-size: 21px;
+}
+
+.headSec2 {
+  /* background-color: red; */
+
+  width: 100%;
+  display: flex;
+
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 14px;
+}
+
+.descBody {
+  /* background-color: yellow; */
+
+  width: 100%;
+  height: auto;
+}
+
+.descUl {
+  /* background-color: red; */
+
+  /* padding: 0; */
+  padding-left: 15px;
+}
+
+.descLi {
+  font-family: "Poppins", sans-serif;
+  color: #d7dbd7;
+
+  padding-left: 10px;
+  padding-bottom: 5px;
+}

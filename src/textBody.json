@@ -3,15 +3,12 @@
     "text1": "hi, my name is",
     "text2": "Kavin Chaisawangwong",
     "text3": "I build things",
-    "text4":
-      "I'm a computer engineer and economist that venturing in to the world of software development."
+    "text4": "I'm a computer engineer and economist that venturing in to the world of software development."
   },
   "aboutMeText": {
     "header": "about me",
-    "body1":
-      "Hi! My name is Kavin Chaisawangwong. I am a senior at Virginia Tech majoring in computer engineering and economics.",
-    "body2":
-      "I enjoy learning about new technologies and exploring ways to practically integrate them into my life. Starting out as a mechanical engineer, my interest for software development was sparked in my intro to python class.",
+    "body1": "Hi! My name is Kavin Chaisawangwong. I am a senior at Virginia Tech majoring in computer engineering and economics.",
+    "body2": "I enjoy learning about new technologies and exploring ways to practically integrate them into my life. Starting out as a mechanical engineer, my interest for software development was sparked in my intro to python class.",
     "body3": "",
     "technologies": {
       "tech1": "JavaScript (ES6+)",
@@ -21,7 +18,7 @@
     }
   },
   "expText": {
-    "header": "experience",
+    "header": "Exp",
     "exp1": {
       "companyName": "Mverge",
       "workDuration": "May - August 2021",

@@ -1,0 +1,55 @@
+{
+  "data": [
+    {
+      "date": "2021-05-01",
+      "title": "Software Engineering Intern",
+      "company": "Mverge",
+      "location": "Bangkok, Thailand",
+      "range": "May - August 2021",
+      "url": "https://www.mverge.co.th/",
+      "text": [
+        "Developed web application for internal communication and information storage using microsoft power platforms",
+        "Implemented CICD practices using microsoft automate"
+      ]
+    },
+    {
+      "date": "2020-05-15",
+      "title": "Software Engineering Intern",
+      "company": "Diary Plus Co.",
+      "location": "Nakhon Sawan, Thailand",
+      "range": "May - August 2021",
+      "url": "http://www.dutchmillinternational.com/en/site/home",
+      "text": [
+        "Communicated with over 100 employees of several departments to coordinate a production schedule.",
+        "Manually operated SIG Combibloc filling machine in aseptic conditions.",
+        "Developed application that sorts and displays brix produced per min in real time using Python and Tkinter GUI library."
+      ]
+    },
+    {
+      "date": "2019-06-10",
+      "title": "Software Engineering Intern",
+      "company": "Tetra Pak",
+      "location": "Pune, India",
+      "range": "June - August 2019",
+      "url": "https://www.tetrapak.com/",
+      "text": [
+        "Developed a systematic understanding of agile practices through bi-weekly sprints and project forecasting.",
+        "Acquired experience in implementation of REST APIs and designing systems architecture.",
+        "Created several iterations of corporate intranet site by restructuring JavaScript web components."
+      ]
+    },
+    {
+      "date": "2018-05-05",
+      "title": "Mechanical Engineering Intern",
+      "company": "Dutchmill",
+      "location": "Nakhon Pathom, Thailand",
+      "range": "May - August 2019",
+      "url": "http://www.dutchmillinternational.com/en/site/home",
+      "text": [
+        "Created technical directives to update machine manuals for the STORK heat treatment equipment in replacement of obsolete cleaning-in-place systems.",
+        "Led daily briefings with mechanical teams to coordinate progressive installation of STORK.",
+        "Worked with the mechanical team in daily maintenance of aqueduct systems."
+      ]
+    }
+  ]
+}

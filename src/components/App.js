@@ -3,7 +3,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import About from "./About";
 import Hero from "./Hero";
-import Experience from "./Experience";
+import Exp from "./Exp";
 
 const App = () => {
   return (
@@ -11,7 +11,7 @@ const App = () => {
       {/* <Navbar /> */}
       {/* <Hero /> */}
       {/* <About /> */}
-      <Experience />
+      <Exp />
       {/* <Work /> */}
     </div>
   );
