@@ -7,9 +7,9 @@ import {
   VscFileCode,
 } from "react-icons/vsc";
 
-const ProjectCard = ({ proj: { title, desc, tech } }) => {
+const ProjectCard = ({ proj: { title, desc, link, tech } }) => {
   return (
-    <a className="projectCardContainer">
+    <a className="projectCardContainer" href={link} target="_blank">
       <div className="projHeaderContainer">
         <div className="projHeader">
           <VscFileCode className="projCardIcon1" />

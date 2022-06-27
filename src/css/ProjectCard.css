@@ -1,12 +1,22 @@
 .projectCardContainer {
   background-color: #575e61;
-  min-height: 300px;
-  min-width: 300px;
+  height: 300px;
+  width: 300px;
   margin: 10px;
+  border: 2px solid #575e61;
+
+  text-decoration: none;
 }
 
 .projectCardContainer:hover {
-  transform: scale(1.05);
+  transform: translateY(-10px);
+  background-color: rgb(87, 94, 97, 0.6);
+  cursor: pointer;
+  border: 2px solid rgba(255, 255, 255, 0.806);
+}
+
+.projectCardContainer:hover .projTitle {
+  color: #81ecec;
 }
 
 .projHeaderContainer {
@@ -38,6 +48,10 @@
   font-size: 25px;
   fill: white;
   margin-left: auto;
+}
+
+.projCardIcon2:hover {
+  fill: #81ecec;
 }
 
 .projBody {

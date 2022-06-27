@@ -1,27 +1,33 @@
 {
   "data": [
     {
+      "title": "NASA Additive Manufacturing Application",
+      "desc": "TBD",
+      "link": "https://github.com/sabaenzo/PCBLayoutToSTEP",
+      "tech": ["React", "NodeJS"]
+    },
+    {
       "title": "Front-End Pokedex",
       "desc": "TBD",
-      "projLink": "",
+      "link": "https://github.com/kavinchai/pokedex_frontend",
       "tech": ["React", "NodeJS"]
     },
     {
       "title": "Back-End Pokedex",
       "desc": "TBD",
-      "projLink": "",
+      "link": "https://github.com/kavinchai/pokedex_backend",
       "tech": ["Kotlin", "Docker", "Spring", "Liquibase"]
     },
     {
       "title": "Personal Website",
       "desc": "TBD",
-      "projLink": "",
+      "link": "",
       "tech": ["React"]
     },
     {
       "title": "Smart Home Project",
       "desc": "TBD",
-      "projLink": "https://youtu.be/J0m3PwPlISA",
+      "link": "https://youtu.be/J0m3PwPlISA",
       "tech": ["React"]
     }
   ]
