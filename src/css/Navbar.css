@@ -41,6 +41,7 @@
 
 .nameMark:hover {
   cursor: pointer;
+  user-select: none;
 }
 
 .navMenu {

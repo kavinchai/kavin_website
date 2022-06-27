@@ -51,6 +51,7 @@
 
 .nameMark:hover {
   cursor: pointer;
+  user-select: none;
 }
 
 .highlight {
