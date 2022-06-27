@@ -5,14 +5,15 @@
 
 .projectList {
   /* border: 5px solid #ffff00; */
+  background: #2f3335;
 
   position: relative;
   left: 50%;
   top: 10%;
   transform: translate(-50%, 0%);
   padding: 10px;
-  height: auto;
-  width: 55%;
+  min-height: 80%;
+  width: 60%;
 }
 
 .projectHeader {
@@ -32,7 +33,7 @@
 .projectBody {
   /* background-color: blue; */
 
-  width: 100%;
+  width: auto;
   height: auto;
   position: relative;
 

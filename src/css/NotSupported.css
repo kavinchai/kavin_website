@@ -1,0 +1,23 @@
+.notSupContainer {
+  height: 100vh;
+  width: 100vw;
+  background-color: #2f3335;
+}
+
+.notSup {
+  border: 5px solid #ffff00;
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  height: 50%;
+  width: 50%;
+
+  display: flex;
+
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 32px;
+}
