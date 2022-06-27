@@ -4,13 +4,15 @@ import Navbar from "./Navbar";
 import About from "./About";
 import Hero from "./Hero";
 import Exp from "./Exp";
+import SideNav from "./SideNav";
 
 const App = () => {
   return (
     <div className="appContainer">
       <Navbar />
-      <Hero />
-      {/* <About /> */}
+      <SideNav />
+      {/* <Hero /> */}
+      <About />
       <Exp />
       {/* <Work /> */}
     </div>

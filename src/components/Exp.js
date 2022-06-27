@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "../css/Exp.css";
 import jobsJson from "../content/jobs.json";
 import ExpDesc from "./ExpDesc";
+
 const Exp = () => {
   const [dispNum, setDispNum] = useState(1);
   const [data, setData] = useState({});
