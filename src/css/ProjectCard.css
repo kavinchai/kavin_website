@@ -1,6 +1,26 @@
 .projectCardContainer {
   background-color: green;
-  height: 20%;
-  width: 20%;
+  min-height: 300px;
+  min-width: 300px;
   margin: 10px;
+}
+
+.projHeader {
+  background-color: red;
+  width: 100%;
+  height: 20%;
+  margin: 5px 0px;
+}
+
+.projBody {
+  background-color: yellow;
+  width: 100%;
+  height: 60%;
+  margin: 5px 0px;
+}
+
+.projFooter {
+  background-color: aqua;
+  width: 100%;
+  height: 15%;
 }

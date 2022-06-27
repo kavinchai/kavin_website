@@ -3,9 +3,11 @@ import "../css/ProjectCard.css";
 
 const ProjectCard = ({ proj: { title, desc, tech } }) => {
   return (
-    <div className="projectCardContainer">
-      <div></div>
-    </div>
+    <a className="projectCardContainer">
+      <div className="projHeader">{title}</div>
+      <div className="projBody"></div>
+      <div className="projFooter"></div>
+    </a>
   );
 };
 

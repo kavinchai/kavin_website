@@ -3,23 +3,26 @@
     {
       "title": "Front-End Pokedex",
       "desc": "TBD",
-      "tech": [
-        "React","NodeJS"
-      ]
+      "projLink": "",
+      "tech": ["React", "NodeJS"]
     },
     {
       "title": "Back-End Pokedex",
       "desc": "TBD",
-      "tech": [
-        "Kotlin","Docker","Spring","Liquibase"
-      ]
+      "projLink": "",
+      "tech": ["Kotlin", "Docker", "Spring", "Liquibase"]
     },
     {
       "title": "Personal Website",
       "desc": "TBD",
-      "tech": [
-        "React"
-      ]
+      "projLink": "",
+      "tech": ["React"]
+    },
+    {
+      "title": "Smart Home Project",
+      "desc": "TBD",
+      "projLink": "https://youtu.be/J0m3PwPlISA",
+      "tech": ["React"]
     }
   ]
 }

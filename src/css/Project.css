@@ -8,15 +8,15 @@
 
   position: relative;
   left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  top: 10%;
+  transform: translate(-50%, 0%);
   padding: 10px;
-  height: 77%;
-  width: 65%;
+  height: auto;
+  width: 55%;
 }
 
 .projectHeader {
-  background-color: red;
+  /* background-color: red; */
 
   width: 100%;
   height: auto;
@@ -26,14 +26,18 @@
   font-family: "Poppins", sans-serif;
   font-size: 60px;
   font-weight: bold;
+  text-align: right;
 }
 
 .projectBody {
-  background-color: blue;
+  /* background-color: blue; */
 
   width: 100%;
-  height: 85%;
+  height: auto;
   position: relative;
 
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
 }

@@ -49,6 +49,10 @@
   color: #bcbaba;
 }
 
+.nameMark:hover {
+  cursor: pointer;
+}
+
 .highlight {
   background: transparent;
   color: #81ecec;

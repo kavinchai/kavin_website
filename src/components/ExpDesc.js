@@ -8,7 +8,11 @@ const ExpDesc = ({
       <div className="descHeader">
         <div className="headSec1">
           <div className="descTitle">{title}</div>
-          <div className="descCompany">{`@${company}`}</div>
+          <a
+            href={url}
+            target="_blank"
+            className="descCompany"
+          >{`${company}`}</a>
         </div>
         <div className="headSec2">
           <div className="descRange">{range}</div>

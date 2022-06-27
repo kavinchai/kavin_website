@@ -39,6 +39,10 @@
   color: #81ecec;
 }
 
+.nameMark:hover {
+  cursor: pointer;
+}
+
 .navMenu {
   /* background-color: green; */
 
