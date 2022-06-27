@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import "../css/About.css";
 const About = () => {
   const [myName, setMyName] = useState(true);
