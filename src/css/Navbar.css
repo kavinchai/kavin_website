@@ -30,13 +30,13 @@
   font-family: "Poppins", sans-serif;
   font-size: 20px;
   color: white;
-  margin-right: 10px;
+  /* margin-right: 10px; */
 }
 
 .lastName {
   font-family: "Poppins", sans-serif;
   font-size: 20px;
-  color: white;
+  color: #81ecec;
 }
 
 .navMenu {
@@ -53,6 +53,6 @@
   list-style: none;
   font-family: "Poppins", sans-serif;
   font-size: 20px;
-  color: white;
+  color: #81ecec;
   margin-left: 20px;
 }

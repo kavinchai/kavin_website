@@ -1,23 +1,55 @@
-.heroPage {
+.heroContainer {
   height: 100vh;
-  /* width: 100vw; */
-  /* color: white; */
   background: #2f3335;
+  font-family: "Poppins", sans-serif;
 }
 
 .heroTextContainer {
+  border: 5px solid #ffff00;
+
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  border: 5px solid #ffff00;
   padding: 10px;
-  height: 40%;
+  height: 70%;
+  width: 70%;
+
+  display: flex;
+}
+
+.heroText {
+  /* background-color: red; */
+  height: 100%;
   width: 60%;
 }
 
+.heroImg {
+  background-color: blue;
+  height: 100%;
+  width: 40%;
+}
+
+.heroText1 {
+  /* background-color: green; */
+  width: 100%;
+  height: auto;
+  color: #81ecec;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.heroText2 {
+  padding-top: 15px;
+  color: #959292;
+}
+
+.heroText3 {
+  color: #959292;
+}
+
 .myNameIs {
-  color: #eee3c1ff;
+  color: white;
 }
 
 .name {
@@ -27,11 +59,11 @@
 }
 
 .whatIDo {
-  color: #505050ff;
+  color: #959292;
   margin: 0px;
   font-size: clamp(40px, 8vw, 60px);
 }
 
 .myDescription {
-  color: #505050ff;
+  color: #959292;
 }

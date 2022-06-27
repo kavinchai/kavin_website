@@ -21,13 +21,27 @@ const Hero = () => {
   const items = [one, two, three, four];
   return (
     <>
-      <div className="heroPage">
+      <div className="heroContainer">
         <div className="heroTextContainer">
-          <>
-            {items.map((item, i) => (
-              <div key={i}>{item}</div>
-            ))}
-          </>
+          <div className="heroText">
+            <div className="heroText1">about me</div>
+            <div className="heroText2"></div>
+            <div className="heroText3">
+              <p>
+                Hi! My name is Kavin Chaisawangwong. I am a senior at Virginia
+                Tech majoring in computer engineering and economics. I enjoy
+                experimenting with new technologies and exploring ways to
+                practically integrate them into my life. My passion for software
+                was discovered during my first internship where I was introduced
+                to HTML, Javascript, and CSS.
+              </p>
+              <p>
+                As a computer engineer, my interests include embedded systems,
+                web development, and
+              </p>
+            </div>
+          </div>
+          <div className="heroImg"></div>
         </div>
       </div>
     </>
