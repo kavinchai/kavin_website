@@ -8,8 +8,8 @@ import Exp from "./Exp";
 const App = () => {
   return (
     <div className="appContainer">
-      {/* <Navbar /> */}
-      {/* <Hero /> */}
+      <Navbar />
+      <Hero />
       {/* <About /> */}
       <Exp />
       {/* <Work /> */}
