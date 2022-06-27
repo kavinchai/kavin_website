@@ -1,0 +1,25 @@
+{
+  "data": [
+    {
+      "title": "Front-End Pokedex",
+      "desc": "TBD",
+      "tech": [
+        "React","NodeJS"
+      ]
+    },
+    {
+      "title": "Back-End Pokedex",
+      "desc": "TBD",
+      "tech": [
+        "Kotlin","Docker","Spring","Liquibase"
+      ]
+    },
+    {
+      "title": "Personal Website",
+      "desc": "TBD",
+      "tech": [
+        "React"
+      ]
+    }
+  ]
+}

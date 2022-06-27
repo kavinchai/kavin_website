@@ -1,0 +1,39 @@
+.projectContainer {
+  height: 100vh;
+  background: #2f3335;
+}
+
+.projectList {
+  border: 5px solid #ffff00;
+
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  height: 77%;
+  width: 65%;
+}
+
+.projectHeader {
+  background-color: red;
+
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+
+  color: #81ecec;
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.projectBody {
+  background-color: blue;
+
+  width: 100%;
+  height: 85%;
+  position: relative;
+
+  display: flex;
+}

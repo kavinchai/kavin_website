@@ -5,7 +5,7 @@ import About from "./About";
 import Hero from "./Hero";
 import Exp from "./Exp";
 import SideNav from "./SideNav";
-
+import Project from "./Project";
 const App = () => {
   return (
     <div className="appContainer">
@@ -14,7 +14,7 @@ const App = () => {
       {/* <Hero /> */}
       <About />
       <Exp />
-      {/* <Work /> */}
+      <Project />
     </div>
   );
 };
