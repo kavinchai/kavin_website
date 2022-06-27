@@ -41,11 +41,11 @@
 
 .heroText2 {
   padding-top: 15px;
-  color: #959292;
+  color: #bcbaba;
 }
 
 .heroText3 {
-  color: #959292;
+  color: #bcbaba;
 }
 
 .myNameIs {
@@ -59,11 +59,11 @@
 }
 
 .whatIDo {
-  color: #959292;
+  color: #bcbaba;
   margin: 0px;
   font-size: clamp(40px, 8vw, 60px);
 }
 
 .myDescription {
-  color: #959292;
+  color: #bcbaba;
 }

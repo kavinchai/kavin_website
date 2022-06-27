@@ -37,7 +37,9 @@ const Hero = () => {
               </p>
               <p>
                 As a computer engineer, my interests include embedded systems,
-                web development, and
+                web development, and digital interfacing. My learning is best
+                facilitated by experiences that offer multiple avenues of
+                practical applications.
               </p>
             </div>
           </div>
