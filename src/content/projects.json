@@ -2,15 +2,15 @@
   "data": [
     {
       "title": "NASA Additive Manufacturing Application",
-      "desc": "TBD",
+      "desc": "Application that converts PCB layouts to print path files of the STEP format.",
       "link": "https://github.com/kavinchai/NASA_AM_App",
-      "tech": ["React", "NodeJS"]
+      "tech": ["Python", "CadQuery"]
     },
     {
       "title": "Front End Pokedex",
       "desc": "TBD",
       "link": "https://github.com/kavinchai/pokedex_frontend",
-      "tech": ["React", "NodeJS"]
+      "tech": ["React"]
     },
     {
       "title": "Back End Pokedex",
@@ -26,7 +26,7 @@
     },
     {
       "title": "Smart Home Project",
-      "desc": "TBD",
+      "desc": "",
       "link": "https://youtu.be/J0m3PwPlISA",
       "tech": ["React"]
     }

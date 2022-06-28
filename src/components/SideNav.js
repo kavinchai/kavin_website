@@ -26,10 +26,14 @@ const SideNav = () => {
   return (
     <div className="sideNavComponent">
       <div className="sideNavContainer">
-        <a href="https://github.com/kavinchai" target="_blank">
+        <a href="https://github.com/kavinchai" target="_blank" rel="noreferrer">
           <RiGithubLine className="iconType1 icon" />
         </a>
-        <a href="https://www.linkedin.com/in/kavinchai" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/kavinchai"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FiLinkedin className="iconType2 icon" />
         </a>
         <button onClick={copyEmail} className="sideBtn">

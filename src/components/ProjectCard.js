@@ -4,7 +4,12 @@ import { VscLinkExternal, VscFileCode } from "react-icons/vsc";
 
 const ProjectCard = ({ proj: { title, desc, link, tech } }) => {
   return (
-    <a className="projCardComponent" href={link} target="_blank">
+    <a
+      className="projCardComponent"
+      href={link}
+      target="_blank"
+      rel="noreferrer"
+    >
       <div className="projHeader">
         <div className="projHeaderSection">
           <VscFileCode className="projCardIcon1" />

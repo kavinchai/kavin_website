@@ -1,7 +1,7 @@
 .projCardComponent {
   background-color: #575e61;
-  height: 275px;
-  width: 275px;
+  height: 280px;
+  width: 280px;
   margin: 10px;
   border: 2px solid #575e61;
 
@@ -64,14 +64,14 @@
 .projTitle {
   /* background-color: red; */
   font-family: "Poppins", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   color: white;
   margin-bottom: 10px;
 }
 
 .projDesc {
   font-family: "Poppins", sans-serif;
-  font-size: 14px;
+  font-size: 13px;
   color: var(--lightText-color);
   display: flex;
 }
