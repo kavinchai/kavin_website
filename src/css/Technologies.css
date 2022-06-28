@@ -1,0 +1,52 @@
+.techPage {
+  /* background-color: red; */
+
+  height: 40%;
+  width: 100%;
+}
+
+.techContainer {
+  /* border: 5px solid #ffff00; */
+
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  height: 80%;
+  width: 50%;
+}
+
+.techText1 {
+  /* background-color: blue; */
+  width: 100%;
+
+  color: #81ecec;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.techText2 {
+  /* background-color: green; */
+  width: 100%;
+  height: auto;
+  color: white;
+  font-size: 20px;
+  text-align: right;
+
+  font-family: "Poppins", sans-serif;
+}
+
+.techTable {
+  /* background-color: yellow; */
+  width: 100%;
+  height: 65%;
+  margin-top: 10px;
+}
+
+/* Each Image is 512 x 512 px */
+.techImg {
+  width: 40%;
+}

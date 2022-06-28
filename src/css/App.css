@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
 
 .appContainer {
-  height: auto;
+  height: 100vh;
   background: #2f3335;
 }

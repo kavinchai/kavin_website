@@ -2,45 +2,49 @@ import "../css/App.css";
 import React, { useEffect, useState } from "react";
 import Navbar from "./Navbar";
 import About from "./About";
-import Hero from "./Hero";
 import Exp from "./Exp";
 import SideNav from "./SideNav";
 import Project from "./Project";
 import NotSupported from "./NotSupported";
+import Technologies from "./Technologies";
 const App = () => {
   const [validSize, setValidSize] = useState();
+  const [width, setWidth] = useState(0);
 
   useEffect(() => {
     console.log(window.innerWidth);
-    if (window.innerWidth > 555) {
+    if (window.innerWidth > 1680) {
       setValidSize(true);
+    } else {
+      setValidSize(false);
     }
-    setValidSize(false);
+  }, [width]);
+
+  useEffect(() => {
+    const updateWindowDimensions = () => {
+      const newWidth = window.innerWidth;
+      setWidth(newWidth);
+    };
+
+    window.addEventListener("resize", updateWindowDimensions);
+    return () => window.removeEventListener("resize", updateWindowDimensions);
   }, []);
 
   return (
-    // <>
-    //   {validSize === true ? (
-    //     <div className="appContainer">
-    //       <Navbar />
-    //       <SideNav />
-    //       {/* <Hero /> */}
-    //       <About />
-    //       <Exp />
-    //       <Project />
-    //     </div>
-    //   ) : (
-    //     <NotSupported />
-    //   )}
-    // </>
-    <div className="appContainer">
-      <Navbar />
-      <SideNav />
-      {/* <Hero /> */}
-      <About />
-      <Exp />
-      <Project />
-    </div>
+    <>
+      {validSize ? (
+        <div className="appContainer">
+          <Navbar />
+          <SideNav />
+          <About />
+          <Technologies />
+          <Exp />
+          <Project />
+        </div>
+      ) : (
+        <NotSupported />
+      )}
+    </>
   );
 };
 

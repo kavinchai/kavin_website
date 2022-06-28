@@ -18,7 +18,9 @@ const ProjectCard = ({ proj: { title, desc, link, tech } }) => {
       <div className="projFooter">
         <div className="projTech">
           {tech.map((key, index) => (
-            <div className={`techUsed techUsed${index + 1}`}>{key}</div>
+            <div key={index} className={`techUsed techUsed${index + 1}`}>
+              {key}
+            </div>
           ))}
         </div>
       </div>

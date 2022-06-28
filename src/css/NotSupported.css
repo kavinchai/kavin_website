@@ -5,7 +5,7 @@
 }
 
 .notSup {
-  border: 5px solid #ffff00;
+  border: 5px solid #81ecec;
 
   position: absolute;
   left: 50%;
@@ -20,4 +20,13 @@
   font-family: "Poppins", sans-serif;
   color: white;
   font-size: 32px;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.notSupText {
+  /* left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); */
 }

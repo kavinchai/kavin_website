@@ -32,8 +32,10 @@
 
 .projectBody {
   /* background-color: blue; */
+  left: 50%;
+  transform: translate(-50%, 0%);
 
-  width: auto;
+  max-width: 80%;
   height: auto;
   position: relative;
 
