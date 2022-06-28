@@ -1,8 +1,8 @@
 .techPage {
-  /* background-color: red; */
+  background: var(--background-color);
 
   height: 40%;
-  width: 100%;
+  width: 100vw;
 }
 
 .techContainer {

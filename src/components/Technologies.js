@@ -11,35 +11,35 @@ const Technologies = () => {
           <tr>
             <th className="techR1C1">
               <img
-                src={IMAGES.logoC}
+                src={IMAGES.logoDocker}
                 className="techImg techImg1"
                 alt="techImg1"
               />
             </th>
             <th className="techR1C2">
               <img
-                src={IMAGES.logoPython}
+                src={IMAGES.logoSpring}
                 className="techImg techImg2"
                 alt="techImg2"
               />
             </th>
             <th className="techR1C3">
               <img
-                src={IMAGES.logoDocker}
+                src={IMAGES.logoLiquibase}
                 className="techImg techImg3"
                 alt="techImg3"
               />
             </th>
             <th className="techR1C4">
               <img
-                src={IMAGES.logoSpring}
+                src={IMAGES.logoPython}
                 className="techImg techImg4"
                 alt="techImg4"
               />
             </th>
             <th className="techR1C5">
               <img
-                src={IMAGES.logoLiquibase}
+                src={IMAGES.logoC}
                 className="techImg techImg5"
                 alt="techImg5"
               />
@@ -48,7 +48,7 @@ const Technologies = () => {
           <tr>
             <th className="techR2C1">
               <img
-                src={IMAGES.logoArduino}
+                src={IMAGES.logoReact}
                 className="techImg techImg6"
                 alt="techImg6"
               />
@@ -76,7 +76,7 @@ const Technologies = () => {
             </th>
             <th className="techR2C5">
               <img
-                src={IMAGES.logoReact}
+                src={IMAGES.logoArduino}
                 className="techImg techImg10"
                 alt="techImg10"
               />
