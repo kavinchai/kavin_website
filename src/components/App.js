@@ -19,20 +19,28 @@ const App = () => {
   }, []);
 
   return (
-    <>
-      {validSize === true ? (
-        <div className="appContainer">
-          <Navbar />
-          <SideNav />
-          {/* <Hero /> */}
-          <About />
-          <Exp />
-          <Project />
-        </div>
-      ) : (
-        <NotSupported />
-      )}
-    </>
+    // <>
+    //   {validSize === true ? (
+    //     <div className="appContainer">
+    //       <Navbar />
+    //       <SideNav />
+    //       {/* <Hero /> */}
+    //       <About />
+    //       <Exp />
+    //       <Project />
+    //     </div>
+    //   ) : (
+    //     <NotSupported />
+    //   )}
+    // </>
+    <div className="appContainer">
+      <Navbar />
+      <SideNav />
+      {/* <Hero /> */}
+      <About />
+      <Exp />
+      <Project />
+    </div>
   );
 };
 

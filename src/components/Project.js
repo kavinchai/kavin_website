@@ -10,7 +10,7 @@ const Project = () => {
         <div className="projectHeader">projects</div>
         <div className="projectBody">
           {projectsJson.data.map((projInfo, index) => (
-            <ProjectCard proj={projInfo} />
+            <ProjectCard key={index} proj={projInfo} />
           ))}
         </div>
       </div>

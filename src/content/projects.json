@@ -7,13 +7,13 @@
       "tech": ["React", "NodeJS"]
     },
     {
-      "title": "Front-End Pokedex",
+      "title": "Front End Pokedex",
       "desc": "TBD",
       "link": "https://github.com/kavinchai/pokedex_frontend",
       "tech": ["React", "NodeJS"]
     },
     {
-      "title": "Back-End Pokedex",
+      "title": "Back End Pokedex",
       "desc": "TBD",
       "link": "https://github.com/kavinchai/pokedex_backend",
       "tech": ["Kotlin", "Docker", "Spring", "Liquibase"]
