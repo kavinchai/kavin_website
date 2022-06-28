@@ -38,6 +38,8 @@
   text-decoration: underline 0.15em rgba(255, 255, 255, 0);
   transition: text-decoration-color 300ms;
   font-size: 21px;
+  margin-left: auto;
+  padding-right: 10px;
 }
 .descCompany:hover {
   text-decoration-color: #81ecec;
