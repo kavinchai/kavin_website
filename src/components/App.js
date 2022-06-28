@@ -12,7 +12,7 @@ const App = () => {
   const [width, setWidth] = useState(0);
 
   useEffect(() => {
-    console.log(window.innerWidth);
+    // console.log(window.innerWidth);
     if (window.innerWidth > 1680) {
       setValidSize(true);
     } else {

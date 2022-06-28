@@ -2,7 +2,10 @@ import React, { useState } from "react";
 import "../css/Navbar.css";
 const Navbar = () => {
   const [myName, setMyName] = useState(true);
-
+  const scrollTo = (string) => {
+    const section = document.querySelector(string);
+    section.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
   return (
     <div className="navBarContainer">
       <div className="navBar">
@@ -18,17 +21,23 @@ const Navbar = () => {
         >
           {myName === true ? "chai" : "ฉายสว่างวงศ์"}
         </div>
-        <ul className="navMenu">
-          <li className="navElement">
-            <a>about</a>
-          </li>
-          <li className="navElement">
-            <a>experience</a>
-          </li>
-          <li className="navElement">
-            <a>projects</a>
-          </li>
-        </ul>
+        <div className="navMenu">
+          <button
+            className="navBtn"
+            onClick={() => scrollTo(".aboutComponent")}
+          >
+            about
+          </button>
+          <button className="navBtn" onClick={() => scrollTo(".expComponent")}>
+            experience
+          </button>
+          <button
+            className="navBtn"
+            onClick={() => scrollTo(".projectComponent")}
+          >
+            projects
+          </button>
+        </div>
       </div>
     </div>
   );

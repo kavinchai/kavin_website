@@ -6,7 +6,7 @@ const About = () => {
   const [myName, setMyName] = useState(true);
 
   return (
-    <div className="aboutContainer">
+    <div className="aboutComponent">
       <div className="aboutTextContainer">
         <div className="aboutText">
           <div className="aboutText1">about me</div>
@@ -34,6 +34,7 @@ const About = () => {
                 href="https://github.com/kavinchai/NASA_AM_App"
                 target="_blank"
                 className="aboutLink"
+                rel="noreferrer"
               >
                 NASA Additive Manufacturing Application
               </a>
@@ -42,6 +43,7 @@ const About = () => {
                 href="https://github.com/kavinchai/pokedex_frontend"
                 target="_blank"
                 className="aboutLink"
+                rel="noreferrer"
               >
                 front-end
               </a>{" "}
@@ -50,6 +52,7 @@ const About = () => {
                 href="https://github.com/kavinchai/pokedex_backend"
                 target="_blank"
                 className="aboutLink"
+                rel="noreferrer"
               >
                 back-end
               </a>{" "}
@@ -58,7 +61,7 @@ const About = () => {
           </div>
         </div>
         <div className="aboutImgContainer">
-          <img src={imag} className="aboutImg" />
+          <img src={imag} className="aboutImg" alt="kavinImg" />
         </div>
       </div>
     </div>

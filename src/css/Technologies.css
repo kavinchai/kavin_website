@@ -51,6 +51,15 @@
   width: 40%;
 }
 
-.techImg:hover {
-  transform: scale(1.1);
+.techImg6:hover {
+  animation: logoSpin infinite 5s linear;
+}
+
+@keyframes logoSpin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

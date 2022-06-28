@@ -5,7 +5,7 @@ import ProjectCard from "./ProjectCard";
 
 const Project = () => {
   return (
-    <div className="projectContainer">
+    <div className="projectComponent">
       <div className="projectList">
         <div className="projectHeader">
           <div className="projText1">projects</div>
