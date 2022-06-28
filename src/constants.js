@@ -10,5 +10,4 @@ const IMAGES = {
   logoReact: require("./imgs/techImgs/logoReact.png"),
   logoSpring: require("./imgs/techImgs/logoSpring.png"),
 };
-
 export default IMAGES;

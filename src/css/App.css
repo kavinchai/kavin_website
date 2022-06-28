@@ -2,5 +2,5 @@
 
 .appContainer {
   height: 100vh;
-  background: #2f3335;
+  background: var(--background-color);
 }

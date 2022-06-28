@@ -16,7 +16,7 @@
 }
 
 .projectCardContainer:hover .projTitle {
-  color: #81ecec;
+  color: var(--primary-color);
 }
 
 .projHeaderContainer {
@@ -41,7 +41,7 @@
 
 .projCardIcon1 {
   font-size: 30px;
-  fill: #81ecec;
+  fill: var(--primary-color);
 }
 
 .projCardIcon2 {
@@ -51,7 +51,7 @@
 }
 
 .projCardIcon2:hover {
-  fill: #81ecec;
+  fill: var(--primary-color);
 }
 
 .projBody {
@@ -72,7 +72,7 @@
 .projDesc {
   font-family: "Poppins", sans-serif;
   font-size: 14px;
-  color: #bcbaba;
+  color: var(--lightText-color);
   display: flex;
 }
 

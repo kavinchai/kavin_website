@@ -30,22 +30,22 @@
 
 .iconType1 {
   font-size: 30px;
-  fill: #bcbaba;
+  fill: var(--lightText-color);
 }
 
 .iconType1:hover {
-  fill: #81ecec;
+  fill: var(--primary-color);
   cursor: pointer;
 }
 
 .iconType2 {
   font-size: 30px;
-  color: #bcbaba;
+  color: var(--lightText-color);
   fill: transparent;
 }
 
 .iconType2:hover {
-  color: #81ecec;
+  color: var(--primary-color);
   cursor: pointer;
 }
 
@@ -73,5 +73,5 @@
 .Toastify__toast-body {
   font-family: "Poppins", sans-serif;
   font-size: 14px;
-  color: #81ecec;
+  color: var(--primary-color);
 }

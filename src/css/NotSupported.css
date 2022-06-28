@@ -1,11 +1,11 @@
 .notSupContainer {
   height: 100vh;
   width: 100vw;
-  background-color: #2f3335;
+  background-color: var(--background-color);
 }
 
 .notSup {
-  border: 5px solid #81ecec;
+  border: 5px solid var(--primary-color);
 
   position: absolute;
   left: 50%;

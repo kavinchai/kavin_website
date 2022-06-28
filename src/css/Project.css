@@ -1,11 +1,11 @@
 .projectContainer {
   height: 100vh;
-  background: #2f3335;
+  background: var(--background-color);
 }
 
 .projectList {
   /* border: 5px solid #ffff00; */
-  background: #2f3335;
+  background: var(--background-color);
 
   position: relative;
   left: 50%;
@@ -24,7 +24,7 @@
 }
 
 .projText1 {
-  color: #81ecec;
+  color: var(--primary-color);
   font-family: "Poppins", sans-serif;
   font-size: 40px;
   font-weight: bold;

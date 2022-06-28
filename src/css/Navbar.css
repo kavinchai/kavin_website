@@ -36,7 +36,7 @@
 .lastName {
   font-family: "Poppins", sans-serif;
   font-size: 20px;
-  color: #81ecec;
+  color: var(--primary-color);
 }
 
 .nameMark:hover {
@@ -54,6 +54,6 @@
   list-style: none;
   font-family: "Poppins", sans-serif;
   font-size: 20px;
-  color: #81ecec;
+  color: var(--primary-color);
   margin-left: 20px;
 }

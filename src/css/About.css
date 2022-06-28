@@ -1,6 +1,6 @@
 .aboutContainer {
   height: 100vh;
-  background: #2f3335;
+  background: var(--background-color);
   font-family: "Poppins", sans-serif;
 }
 
@@ -41,18 +41,18 @@
   /* background-color: green; */
   width: 100%;
   height: auto;
-  color: #81ecec;
+  color: var(--primary-color);
   font-size: 40px;
   font-weight: bold;
 }
 
 .aboutText2 {
   padding-top: 15px;
-  color: #bcbaba;
+  color: var(--lightText-color);
 }
 
 .aboutText3 {
-  color: #bcbaba;
+  color: var(--lightText-color);
 }
 
 .nameMark:hover {
@@ -62,15 +62,15 @@
 
 .highlight {
   background: transparent;
-  color: #81ecec;
+  color: var(--primary-color);
 }
 
 .aboutLink {
-  color: #81ecec;
+  color: var(--primary-color);
   text-decoration: underline 0.15em rgba(255, 255, 255, 0);
   transition: text-decoration-color 300ms;
 }
 .aboutLink:hover {
-  text-decoration-color: #81ecec;
+  text-decoration-color: var(--primary-color);
   cursor: pointer;
 }

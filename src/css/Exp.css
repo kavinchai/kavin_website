@@ -3,7 +3,7 @@
 
 .expComponent {
   height: 100vh;
-  background-color: #2f3335;
+  background-color: var(--background-color);
 }
 
 .expContainer {
@@ -19,23 +19,25 @@
 }
 
 .text1 {
+  /* background-color: blue; */
+
   width: 100%;
   height: auto;
-  color: #81ecec;
+  color: var(--primary-color);
   font-size: 40px;
   font-weight: bold;
   font-family: "Poppins", sans-serif;
-  /* background-color: blue; */
 }
 
 .text2 {
+  /* background-color: green; */
+
   width: 100%;
   height: auto;
   color: white;
   font-size: 20px;
   font-family: "Poppins", sans-serif;
   padding-bottom: 20px;
-  /* background-color: green; */
 }
 
 .expNavDescContainer {
@@ -61,7 +63,7 @@
 
   font-family: "Poppins", sans-serif;
   text-align: left;
-  color: #bcbaba;
+  color: var(--lightText-color);
 
   cursor: pointer;
   border: none;
@@ -72,8 +74,8 @@
 .activeBtn {
   /* background-color: green; */
 
-  color: #81ecec;
+  color: var(--primary-color);
   background-color: rgb(185, 239, 239, 0.1);
 
-  border-right: 2px solid #81ecec;
+  border-right: 2px solid var(--primary-color);
 }

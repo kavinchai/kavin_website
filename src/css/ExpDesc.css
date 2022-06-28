@@ -34,7 +34,7 @@
 }
 
 .descCompany {
-  color: #81ecec;
+  color: var(--primary-color);
   text-decoration: underline 0.15em rgba(255, 255, 255, 0);
   transition: text-decoration-color 300ms;
   font-size: 21px;
@@ -42,7 +42,7 @@
   padding-right: 10px;
 }
 .descCompany:hover {
-  text-decoration-color: #81ecec;
+  text-decoration-color: var(--primary-color);
   cursor: pointer;
 }
 
@@ -80,7 +80,7 @@
 
 .descLi {
   font-family: "Poppins", sans-serif;
-  color: #bcbaba;
+  color: var(--lightText-color);
 
   padding-left: 10px;
   padding-bottom: 5px;
