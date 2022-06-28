@@ -16,7 +16,7 @@
   width: 50%;
 }
 
-.text1 {
+.expHeaderText1 {
   /* background-color: blue; */
 
   width: 100%;
@@ -27,7 +27,7 @@
   font-family: "Poppins", sans-serif;
 }
 
-.text2 {
+.expHeaderText2 {
   /* background-color: green; */
 
   width: 100%;
@@ -38,7 +38,7 @@
   padding-bottom: 20px;
 }
 
-.expNavDescContainer {
+.expBody {
   /* background-color: red; */
 
   width: 100%;
@@ -46,7 +46,7 @@
   display: flex;
 }
 
-.navContainer {
+.expNavContainer {
   /* background-color: green; */
 
   height: 100%;
@@ -69,7 +69,7 @@
   border-right: 2px solid rgb(185, 239, 239, 0.1);
 }
 
-.activeBtn {
+.expNavBtnActive {
   /* background-color: green; */
 
   color: var(--primary-color);

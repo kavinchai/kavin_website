@@ -14,15 +14,17 @@ const Exp = () => {
   return (
     <div className="expComponent">
       <div className="expContainer">
-        <div className="text1">experience</div>
-        <div className="text2">places i've worked</div>
-        <div className="expNavDescContainer">
-          <div className="navContainer">
+        <div className="expHeaderText1">experience</div>
+        <div className="expHeaderText2">places i've worked</div>
+        <div className="expBody">
+          <div className="expNavContainer">
             {jobsJson.data.map((expInfo, index) => (
               <button
                 key={`${index} ${dispNum}`}
                 className={
-                  dispNum === index + 1 ? `expNavBtn activeBtn` : `expNavBtn`
+                  dispNum === index + 1
+                    ? `expNavBtn expNavBtnActive`
+                    : `expNavBtn`
                 }
                 onClick={() => {
                   setDispNum(index + 1);

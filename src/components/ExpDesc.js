@@ -1,28 +1,29 @@
 import React from "react";
 import "../css/ExpDesc.css";
 const ExpDesc = ({
-  data: { date, title, company, location, range, url, text },
+  data: { date, title, company, location, duration, url, text },
 }) => {
   return (
-    <div className="descContainer">
-      <div className="descHeader">
-        <div className="headSec1">
-          <div className="descTitle">{title}</div>
+    <div className="expDescComponent">
+      <div className="expDescHeader">
+        <div className="expDescHeaderSec1">
+          <div className="expDescTitle">{title}</div>
           <a
             href={url}
             target="_blank"
-            className="descCompany"
+            rel="noreferrer"
+            className="expDescCompany"
           >{`${company}`}</a>
         </div>
-        <div className="headSec2">
-          <div className="descRange">{range}</div>
-          <div className="descLocation">{location}</div>
+        <div className="expDescHeaderSec2">
+          <div className="expDescDuration">{duration}</div>
+          <div className="expDescLocation">{location}</div>
         </div>
       </div>
-      <div className="descBody">
-        <ul className="descUl">
+      <div className="expDescBody">
+        <ul className="expDescUnorderedList">
           {text?.map((key) => (
-            <li key={key} className="descLi">
+            <li key={key} className="expDescList">
               {key}
             </li>
           ))}

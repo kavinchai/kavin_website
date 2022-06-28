@@ -1,4 +1,4 @@
-.navBarContainer {
+.navBarComponent {
   /* background-color: red; */
 
   height: 10%;
@@ -11,7 +11,7 @@
   background: rgb(47, 51, 53, 0.99);
 }
 
-.navBar {
+.navBarContainer {
   /* background-color: blue; */
 
   height: 50%;
@@ -39,7 +39,7 @@
   color: var(--primary-color);
 }
 
-.nameMark:hover {
+.navName:hover {
   cursor: pointer;
   user-select: none;
 }

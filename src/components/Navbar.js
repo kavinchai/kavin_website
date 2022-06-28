@@ -7,16 +7,16 @@ const Navbar = () => {
     section.scrollIntoView({ behavior: "smooth", block: "start" });
   };
   return (
-    <div className="navBarContainer">
-      <div className="navBar">
+    <div className="navBarComponent">
+      <div className="navBarContainer">
         <div
-          className="firstName nameMark"
+          className="firstName navName"
           onClick={() => setMyName((prev) => !prev)}
         >
           {myName === true ? "kavin" : "กวิน"}
         </div>
         <div
-          className="lastName nameMark"
+          className="lastName navName"
           onClick={() => setMyName((prev) => !prev)}
         >
           {myName === true ? "chai" : "ฉายสว่างวงศ์"}

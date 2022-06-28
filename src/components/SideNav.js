@@ -7,9 +7,8 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const SideNav = () => {
-  const copyFunc = () => {
+  const copyEmail = () => {
     navigator.clipboard.writeText("kavinchai00@gmail.com");
-    // toast("Hello Geeks");
     toast.success("Copied!", {
       position: "bottom-left",
       autoClose: 1000,
@@ -25,15 +24,15 @@ const SideNav = () => {
     });
   };
   return (
-    <div className="sideNavContainer">
-      <div className="iconsSection">
+    <div className="sideNavComponent">
+      <div className="sideNavContainer">
         <a href="https://github.com/kavinchai" target="_blank">
           <RiGithubLine className="iconType1 icon" />
         </a>
         <a href="https://www.linkedin.com/in/kavinchai" target="_blank">
           <FiLinkedin className="iconType2 icon" />
         </a>
-        <button onClick={copyFunc} className="sideBtn">
+        <button onClick={copyEmail} className="sideBtn">
           <MdOutlineEmail className="iconType1 icon" />
         </button>
         <ToastContainer

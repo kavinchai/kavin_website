@@ -1,4 +1,4 @@
-.descContainer {
+.expDescComponent {
   /* background-color: blue; */
 
   height: auto;
@@ -9,7 +9,7 @@
   position: relative;
 }
 
-.descHeader {
+.expDescHeader {
   /* background-color: red; */
 
   width: 100%;
@@ -17,7 +17,7 @@
   margin-bottom: 15px;
 }
 
-.headSec1 {
+.expDescHeaderSec1 {
   /* background-color: green; */
 
   width: 100%;
@@ -28,25 +28,26 @@
   font-family: "Poppins", sans-serif;
 }
 
-.descTitle {
+.expDescTitle {
   color: white;
   font-size: 21px;
 }
 
-.descCompany {
+.expDescCompany {
   color: var(--primary-color);
   text-decoration: underline 0.15em rgba(255, 255, 255, 0);
   transition: text-decoration-color 300ms;
   font-size: 21px;
   margin-left: auto;
-  padding-right: 10px;
+  padding-right: 1%;
 }
+
 .descCompany:hover {
   text-decoration-color: var(--primary-color);
   cursor: pointer;
 }
 
-.headSec2 {
+.expDescHeaderSec2 {
   /* background-color: red; */
 
   width: 100%;
@@ -59,26 +60,25 @@
   display: flex;
 }
 
-.descLocation {
+.expDescLocation {
   margin-left: auto;
-  padding-right: 10px;
+  padding-right: 1%;
 }
 
-.descBody {
+.expDescBody {
   /* background-color: yellow; */
 
   width: 100%;
   height: auto;
 }
 
-.descUl {
+.expDescUnorderedList {
   /* background-color: red; */
 
-  /* padding: 0; */
   padding-left: 15px;
 }
 
-.descLi {
+.expDescList {
   font-family: "Poppins", sans-serif;
   color: var(--lightText-color);
 

@@ -3,7 +3,7 @@ import "../css/Technologies.css";
 import IMAGES from "../constants";
 const Technologies = () => {
   return (
-    <div className="techPage">
+    <div className="techComponent">
       <div className="techContainer">
         <div className="techText1">technologies</div>
         <div className="techText2">tools i've used</div>
