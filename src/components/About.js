@@ -31,7 +31,7 @@ const About = () => {
               practically integrate them into my life. My most recent projects
               include the{" "}
               <a
-                href="https://github.com/sabaenzo/PCBLayoutToSTEP"
+                href="https://github.com/kavinchai/NASA_AM_App"
                 target="_blank"
                 className="aboutLink"
               >
