@@ -6,7 +6,7 @@ const Technologies = () => {
     <div className="techPage">
       <div className="techContainer">
         <div className="techText1">technologies</div>
-        <div className="techText2">tools i have used</div>
+        <div className="techText2">tools i've used</div>
         <table className="techTable">
           <tr>
             <th className="techR1C1">

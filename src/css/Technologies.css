@@ -50,3 +50,7 @@
 .techImg {
   width: 40%;
 }
+
+.techImg:hover {
+  transform: scale(1.1);
+}
