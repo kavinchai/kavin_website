@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "../css/About.css";
+import imag from "../imgs/kavinCropped.png";
+
 const About = () => {
   const [myName, setMyName] = useState(true);
 
@@ -55,7 +57,9 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className="aboutImg"></div>
+        <div className="aboutImgContainer">
+          <img src={imag} className="aboutImg" />
+        </div>
       </div>
     </div>
   );

@@ -16,6 +16,7 @@ const ExpDesc = ({
         </div>
         <div className="headSec2">
           <div className="descRange">{range}</div>
+          <div className="descLocation">{location}</div>
         </div>
       </div>
       <div className="descBody">
