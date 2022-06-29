@@ -13,7 +13,7 @@ const App = () => {
 
   useEffect(() => {
     // console.log(window.innerWidth);
-    if (window.innerWidth > 950) {
+    if (window.innerWidth > 555) {
       setValidSize(true);
     } else {
       setValidSize(false);
