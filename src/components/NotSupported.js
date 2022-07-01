@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/NotSupported.css";
+
 const NotSupported = () => {
   return (
     <div className="notSupContainer">

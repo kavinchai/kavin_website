@@ -10,7 +10,7 @@
   position: relative;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -40%);
   padding: 10px;
   height: 55%;
   width: 50%;
@@ -33,7 +33,7 @@
   width: 100%;
   height: auto;
   color: white;
-  font-size: 20px;
+  font-size: 15px;
   font-family: "Poppins", sans-serif;
   padding-bottom: 20px;
 }

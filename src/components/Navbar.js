@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../css/Navbar.css";
+
 const Navbar = () => {
   const [myName, setMyName] = useState(true);
   const scrollTo = (string) => {
@@ -19,7 +20,7 @@ const Navbar = () => {
           className="lastName navName"
           onClick={() => setMyName((prev) => !prev)}
         >
-          {myName === true ? "chai" : "ฉายสว่างวงศ์"}
+          {myName === true ? "chai" : "ฉาย"}
         </div>
         <div className="navMenu">
           <button
