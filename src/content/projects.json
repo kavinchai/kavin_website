@@ -28,7 +28,7 @@
       "title": "Smart Home Project",
       "desc": "A system comprised of several digital devices synchronously operated by an android application. The HC-05 bluetooth module was used as a transmitter for connection between the circuit and the application. ",
       "link": "https://youtu.be/J0m3PwPlISA",
-      "tech": ["React"]
+      "tech": ["Waveforms", "Arduino"]
     }
   ]
 }
