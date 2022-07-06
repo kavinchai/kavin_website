@@ -7,6 +7,8 @@ import SideNav from "./SideNav";
 import Project from "./Project";
 import NotSupported from "./NotSupported";
 import Technologies from "./Technologies";
+import MobileAbout from "./MobileAbout";
+import MobileTechnologies from "./MobileTechnologies";
 const App = () => {
   const [validSize, setValidSize] = useState();
   const [width, setWidth] = useState(0);
@@ -42,7 +44,10 @@ const App = () => {
           <Project />
         </div>
       ) : (
-        <NotSupported />
+        <div className="mobileContainer">
+          <MobileAbout />
+          <MobileTechnologies />
+        </div>
       )}
     </>
   );
