@@ -1,6 +1,6 @@
 import React from "react";
-import "../css/Tech.css";
-import IMAGES from "../constants";
+import "../../css/default/Tech.css";
+import IMAGES from "../../constants";
 const Tech = () => {
   return (
     <div className="techComponent">

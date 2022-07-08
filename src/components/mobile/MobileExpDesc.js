@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/MobileExpDesc.css";
+import "../../css/mobile/MobileExpDesc.css";
 
 const MobileExpDesc = ({
   data: { title, company, location, duration, url, text },

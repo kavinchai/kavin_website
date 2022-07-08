@@ -1,7 +1,7 @@
 import React from "react";
-import "../css/MobileProject.css";
+import "../../css/mobile/MobileProject.css";
 import MobileProjectCard from "./MobileProjectCard";
-import projectsJson from "../content/projects.json";
+import projectsJson from "../../content/projects.json";
 
 const MobileProject = () => {
   return (

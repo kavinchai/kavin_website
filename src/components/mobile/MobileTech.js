@@ -1,6 +1,6 @@
 import React from "react";
-import "../css/MobileTech.css";
-import IMAGES from "../constants";
+import "../../css/mobile/MobileTech.css";
+import IMAGES from "../../constants";
 const MobileTech = () => {
   return (
     <div className="mobileTechComponent">

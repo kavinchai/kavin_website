@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/ProjectCard.css";
+import "../../css/default/ProjectCard.css";
 import { VscLinkExternal, VscFileCode } from "react-icons/vsc";
 
 const ProjectCard = ({ proj: { title, desc, link, tech } }) => {

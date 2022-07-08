@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/ExpDesc.css";
+import "../../css/default/ExpDesc.css";
 
 const ExpDesc = ({
   data: { title, company, location, duration, url, text },

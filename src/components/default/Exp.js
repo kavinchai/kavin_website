@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import "../css/Exp.css";
-import jobsJson from "../content/jobs.json";
+import "../../css/default/Exp.css";
+import jobsJson from "../../content/jobs.json";
 import ExpDesc from "./ExpDesc";
 
 const Exp = () => {

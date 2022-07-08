@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import "../css/MobileExp.css";
-import jobsJson from "../content/jobs.json";
+import "../../css/mobile/MobileExp.css";
+import jobsJson from "../../content/jobs.json";
 import MobileExpDesc from "./MobileExpDesc";
 
 const MobileExp = () => {

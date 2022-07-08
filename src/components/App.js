@@ -1,16 +1,17 @@
 import "../css/App.css";
 import React, { useEffect, useState } from "react";
-import Navbar from "./Navbar";
-import About from "./About";
-import Exp from "./Exp";
-import SideNav from "./SideNav";
-import Project from "./Project";
-import NotSupported from "./NotSupported";
-import Tech from "./Tech";
-import MobileAbout from "./MobileAbout";
-import MobileTech from "./MobileTech";
-import MobileExp from "./MobileExp";
-import MobileProject from "./MobileProject";
+// import NotSupported from "./NotSupported";
+
+import Navbar from "./default/Navbar";
+import About from "./default/About";
+import Exp from "./default/Exp";
+import SideNav from "./default/SideNav";
+import Project from "./default/Project";
+import Tech from "./default/Tech";
+import MobileAbout from "./mobile/MobileAbout";
+import MobileTech from "./mobile/MobileTech";
+import MobileExp from "./mobile/MobileExp";
+import MobileProject from "./mobile/MobileProject";
 
 const App = () => {
   const [validSize, setValidSize] = useState();

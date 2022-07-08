@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import "../css/About.css";
-import imag from "../imgs/kavinCropped.png";
+import "../../css/default/About.css";
+import imag from "../../imgs/kavinCropped.png";
 
 const About = () => {
   const [myName, setMyName] = useState(true);

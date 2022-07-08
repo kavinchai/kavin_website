@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/SideNav.css";
+import "../../css/default/SideNav.css";
 import { RiGithubLine } from "react-icons/ri";
 import { MdOutlineEmail } from "react-icons/md";
 import { FiLinkedin } from "react-icons/fi";

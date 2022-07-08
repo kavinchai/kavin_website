@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/MobileProjectCard.css";
+import "../../css/mobile/MobileProjectCard.css";
 import { VscLinkExternal, VscFileCode } from "react-icons/vsc";
 
 const MobileProjectCard = ({ proj: { title, desc, link, tech } }) => {
