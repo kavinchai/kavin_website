@@ -60,8 +60,8 @@ const MobileAbout = () => {
             </p>
           </div>
         </div>
-        <div className="aboutImgContainer">
-          <img src={imag} className="aboutImg" alt="kavinImg" />
+        <div className="mobileAboutImgContainer">
+          <img src={imag} className="mobileAboutImg" alt="kavinImg" />
         </div>
       </div>
     </div>

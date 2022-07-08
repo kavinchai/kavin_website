@@ -1,7 +1,7 @@
 .mobileAboutComponent {
   background: var(--background-color);
-
-  height: 100%;
+  /* background-color: red; */
+  height: 130%;
   width: 100vw;
   font-family: "Poppins", sans-serif;
 }
@@ -12,19 +12,19 @@
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -40%);
   height: auto;
   width: 70%;
 
   /* display: flex; */
 }
 
-.aboutImgContainer {
+.mobileAboutImgContainer {
   /* background-color: blue; */
   width: 100%;
   text-align: center;
 }
-.aboutImg {
+.mobileAboutImg {
   /* background-color: red; */
   width: 150px;
   /* height: 230px; */
