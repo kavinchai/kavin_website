@@ -92,10 +92,12 @@
   display: flex;
   padding: 0% 4% 0%;
   width: auto;
-  /* background-color: red; */
+  background-color: red;
 }
 
 .techUsed {
+  background-color: blue;
   margin-right: 8px;
   width: auto;
+  height: auto;
 }
