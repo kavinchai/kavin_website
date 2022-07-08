@@ -11,8 +11,8 @@
 
 .mobileExpDescHeader {
   /* background-color: red; */
-
-  width: 100%;
+  margin-left: 10px;
+  width: 97%;
   height: auto;
   margin-bottom: 15px;
 }
@@ -30,14 +30,14 @@
 
 .mobileExpDescTitle {
   color: white;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .mobileExpDescCompany {
   color: var(--primary-color);
   text-decoration: underline 0.15em rgba(255, 255, 255, 0);
   transition: text-decoration-color 300ms;
-  font-size: 14px;
+  font-size: 12px;
   margin-left: auto;
   padding-right: 1%;
 }
@@ -55,7 +55,7 @@
 
   font-family: "Poppins", sans-serif;
   color: white;
-  font-size: 12px;
+  font-size: 10px;
 
   display: flex;
 }
@@ -75,14 +75,14 @@
 .mobileExpDescUnorderedList {
   /* background-color: red; */
 
-  padding-left: 15px;
+  padding-left: 30px;
 }
 
 .mobileExpDescList {
   font-family: "Poppins", sans-serif;
-  font-size: 12px;
+  font-size: 10px;
   color: var(--lightText-color);
 
-  padding-left: 10px;
+  padding-left: 5px;
   padding-bottom: 5px;
 }

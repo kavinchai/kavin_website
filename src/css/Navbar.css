@@ -8,7 +8,7 @@
   top: 0;
   z-index: 1;
 
-  background: rgb(47, 51, 53, 0.99);
+  background: rgb(47, 51, 53, 0.9);
 }
 
 .navBarContainer {
@@ -47,6 +47,7 @@
 .navMenu {
   /* background-color: green; */
   display: flex;
+  gap: 20px;
   margin-left: auto;
 }
 
