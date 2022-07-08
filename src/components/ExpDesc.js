@@ -2,7 +2,7 @@ import React from "react";
 import "../css/ExpDesc.css";
 
 const ExpDesc = ({
-  data: { date, title, company, location, duration, url, text },
+  data: { title, company, location, duration, url, text },
 }) => {
   return (
     <div className="expDescComponent">

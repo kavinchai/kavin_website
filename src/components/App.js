@@ -9,6 +9,9 @@ import NotSupported from "./NotSupported";
 import Tech from "./Tech";
 import MobileAbout from "./MobileAbout";
 import MobileTech from "./MobileTech";
+import MobileExp from "./MobileExp";
+import MobileProject from "./MobileProject";
+
 const App = () => {
   const [validSize, setValidSize] = useState();
   const [width, setWidth] = useState(0);
@@ -47,6 +50,8 @@ const App = () => {
         <div className="mobileContainer">
           <MobileAbout />
           <MobileTech />
+          <MobileExp />
+          <MobileProject />
         </div>
       )}
     </>

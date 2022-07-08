@@ -1,0 +1,81 @@
+.mobileExpComponent {
+  background-color: var(--background-color);
+
+  height: 80%;
+  width: 100vw;
+}
+
+.mobileExpContainer {
+  /* border: 5px solid #ffff00; */
+
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  height: 60%;
+  width: 90%;
+}
+
+.mobileExpHeaderText1 {
+  /* background-color: blue; */
+
+  width: 100%;
+  height: auto;
+  color: var(--primary-color);
+  font-size: 28px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+
+.mobileExpHeaderText2 {
+  /* background-color: green; */
+
+  width: 100%;
+  height: auto;
+  color: white;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 20px;
+}
+
+.mobileExpBody {
+  /* background-color: red; */
+
+  width: 100%;
+  height: 75%;
+  display: flex;
+}
+
+.mobileExpNavContainer {
+  /* background-color: green; */
+
+  height: 100%;
+  width: 15%;
+}
+
+.mobileExpNavBtn {
+  background-color: transparent;
+
+  width: 100%;
+  height: 18%;
+
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+  text-align: left;
+  color: var(--lightText-color);
+
+  cursor: pointer;
+  border: none;
+
+  border-right: 2px solid rgb(185, 239, 239, 0.1);
+}
+
+.mobileExpNavBtnActive {
+  /* background-color: green; */
+
+  color: var(--primary-color);
+  background-color: rgb(185, 239, 239, 0.1);
+
+  border-right: 2px solid var(--primary-color);
+}
