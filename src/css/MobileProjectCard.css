@@ -87,12 +87,15 @@
 
 .mobileProjCardTech {
   font-family: "Poppins", sans-serif;
-  font-size: 12px;
+  font-size: 11px;
   color: white;
   display: flex;
   padding: 0% 4% 0%;
+  width: auto;
+  /* background-color: red; */
 }
 
 .techUsed {
-  margin-right: 10px;
+  margin-right: 8px;
+  width: auto;
 }
