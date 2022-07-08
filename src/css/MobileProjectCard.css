@@ -80,7 +80,7 @@
 .mobileProjCardFooter {
   /* background-color: aqua; */
   width: 100%;
-  height: auto;
+  height: 7%;
   display: flex;
   /* margin: 0% 5% 0%; */
 }
@@ -97,10 +97,10 @@
   /* background-color: red; */
 }
 
-.techUsed {
+.mobileTechUsed {
   /* background-color: blue; */
 
   margin-right: 8px;
   width: auto;
-  max-height: 100%;
+  /* max-height: 90%; */
 }

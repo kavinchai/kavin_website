@@ -23,7 +23,10 @@ const MobileProjectCard = ({ proj: { title, desc, link, tech } }) => {
       <div className="mobileProjCardFooter">
         <div className="mobileProjCardTech">
           {tech.map((key, index) => (
-            <div key={index} className={`techUsed techUsed${index + 1}`}>
+            <div
+              key={index}
+              className={`mobileTechUsed mobileTechUsed${index + 1}`}
+            >
               {key}
             </div>
           ))}
