@@ -1,7 +1,7 @@
 import React from "react";
-import "../css/MobileTechnologies.css";
+import "../css/MobileTech.css";
 import IMAGES from "../constants";
-const MobileTechnologies = () => {
+const MobileTech = () => {
   return (
     <div className="mobileTechComponent">
       <div className="mobileTechContainer">
@@ -88,4 +88,4 @@ const MobileTechnologies = () => {
   );
 };
 
-export default MobileTechnologies;
+export default MobileTech;

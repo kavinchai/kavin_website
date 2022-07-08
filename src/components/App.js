@@ -6,9 +6,9 @@ import Exp from "./Exp";
 import SideNav from "./SideNav";
 import Project from "./Project";
 import NotSupported from "./NotSupported";
-import Technologies from "./Technologies";
+import Tech from "./Tech";
 import MobileAbout from "./MobileAbout";
-import MobileTechnologies from "./MobileTechnologies";
+import MobileTech from "./MobileTech";
 const App = () => {
   const [validSize, setValidSize] = useState();
   const [width, setWidth] = useState(0);
@@ -39,14 +39,14 @@ const App = () => {
           <Navbar />
           <SideNav />
           <About />
-          <Technologies />
+          <Tech />
           <Exp />
           <Project />
         </div>
       ) : (
         <div className="mobileContainer">
           <MobileAbout />
-          <MobileTechnologies />
+          <MobileTech />
         </div>
       )}
     </>

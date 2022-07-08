@@ -1,7 +1,7 @@
 import React from "react";
-import "../css/Technologies.css";
+import "../css/Tech.css";
 import IMAGES from "../constants";
-const Technologies = () => {
+const Tech = () => {
   return (
     <div className="techComponent">
       <div className="techContainer">
@@ -88,4 +88,4 @@ const Technologies = () => {
   );
 };
 
-export default Technologies;
+export default Tech;
