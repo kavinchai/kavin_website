@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "../css/MobileAbout.css";
+import imag from "../imgs/kavinCropped.png";
+
 const MobileAbout = () => {
   const [myName, setMyName] = useState(true);
 
@@ -57,6 +59,9 @@ const MobileAbout = () => {
               pokédex, and this personal website!
             </p>
           </div>
+        </div>
+        <div className="aboutImgContainer">
+          <img src={imag} className="aboutImg" alt="kavinImg" />
         </div>
       </div>
     </div>

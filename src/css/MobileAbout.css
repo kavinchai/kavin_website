@@ -16,7 +16,20 @@
   height: auto;
   width: 70%;
 
-  display: flex;
+  /* display: flex; */
+}
+
+.aboutImgContainer {
+  /* background-color: blue; */
+  width: 100%;
+  text-align: center;
+}
+.aboutImg {
+  /* background-color: red; */
+  width: 150px;
+  /* height: 230px; */
+  /* object-fit: cover; */
+  /* object-position: -20% 5%; */
 }
 
 .mobileAboutText {
