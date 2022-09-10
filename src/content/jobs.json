@@ -1,6 +1,19 @@
 {
   "data": [
     {
+      "date": "2022-09-01",
+      "title": "Software Engineering Intern",
+      "company": "Bushel",
+      "location": "Fargo, North Dakota",
+      "duration": "May - August 2022",
+      "url": "https://bushelpowered.com/",
+      "text": [
+        "Constructed dockerized RESTful API using Kotlin and the Spring Boot framework for company web and mobile applications.",
+        "Designed and implemented a relational database with MariaDb that leverages Liquibase for migration handling.",
+        "Improved code readability by refactoring redundancies in various microservices with generic Kotlin methods and Spring annotations for dependency injection."
+      ]
+    },
+    {
       "date": "2021-05-01",
       "title": "Software Engineering Intern",
       "company": "Mverge",
@@ -8,8 +21,9 @@
       "duration": "May - August 2021",
       "url": "https://www.mverge.co.th/",
       "text": [
-        "Developed web application for internal communication and information storage using microsoft power platforms.",
-        "Implemented CICD practices by creating pipelines in Microsoft azure for cloud-based automation."
+        "Developed web application for corporate internal communication and information storage using Microsoft Power Platforms.",
+        "Improved efficiency of feature deployment by implementing CI/CD pipelines in Microsoft Azure for cloud-based automation.",
+        "Coordinated bi-weekly sprints using Agile practices for deployment of application features and project timeline forecasting."
       ]
     },
     {
@@ -20,9 +34,9 @@
       "duration": "May - August 2020",
       "url": "http://www.dutchmillinternational.com/en/site/home",
       "text": [
-        "Communicated with over 100 employees of several departments to coordinate a production schedule.",
-        "Manually operated SIG Combibloc filling machine in aseptic conditions.",
-        "Developed application that sorts and displays brix produced per min in real time using Python and Tkinter GUI library."
+        "Streamlined visualization of production output by developing a Python app that displays brix produced per minute in real-time using the Tkinter GUI library.",
+        "Maintained quality control for the production line by manually operating SIG Combibloc filling machine in aseptic conditions.",
+        "Drafted preliminary quality assurance protocols by creating electrical directives derived from Thai manuals."
       ]
     },
     {
@@ -33,9 +47,9 @@
       "duration": "June - August 2019",
       "url": "https://www.tetrapak.com/",
       "text": [
-        "Developed a systematic understanding of agile practices through bi-weekly sprints and project forecasting.",
-        "Acquired experience in implementation of REST APIs and designing systems architecture.",
-        "Created several iterations of corporate intranet site by restructuring JavaScript web components."
+        "Acquired experience in implementation of REST APIs and designing systems architecture for web applications.",
+        "Created several iterations of corporate intranet website by restructuring JavaScript web components.",
+        "Facilitated weekly conferences to ensure the development process among various teams is synchronously aligned and allocated Jira tasks accordingly."
       ]
     },
     {
