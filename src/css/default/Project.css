@@ -11,11 +11,11 @@
 
   position: relative;
   left: 50%;
-  top: 5%;
+  top: 2%;
   transform: translate(-50%, 10%);
   padding: 10px;
-  height: 70vh;
-  width: calc(100vh * 4 / 3);
+  height: 90vh;
+  width: calc(100vh * 5 / 3);
 }
 
 .projectHeader {
